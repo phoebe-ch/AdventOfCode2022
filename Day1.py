@@ -8,7 +8,7 @@ Dec 3, 2022
 import numpy as np
 import csv
 
-file = "Day1_Input1.csv"
+file = "Day1_Input.csv"
 
 maxSum = 0
 currentSum = 0
@@ -31,7 +31,7 @@ print(maxSum)
 import numpy as np
 import csv
 
-file = "Day1_Input1.csv"
+file = "Day1_Input.csv"
 
 maxSums = [0,0,0]
 currentSum = 0
