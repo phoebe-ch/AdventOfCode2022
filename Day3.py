@@ -25,7 +25,7 @@ with open(file) as f:
         else:
             score = ascii - 96
 
-        totalScore = totalScore + score
+        totalScore += score
 
 print(totalScore)
 
@@ -48,8 +48,8 @@ with open(file) as f:
         else:
             score = ascii - 96
 
-        totalScore = totalScore + score
+        totalScore += score
 
-        i = i + 3
+        i += 3
 
 print(totalScore)
