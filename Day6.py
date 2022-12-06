@@ -22,7 +22,7 @@ while counter < len(str):
         if strCheck.count(char) > 1:
             unique = False
             break
-        elif char == strCheck[-1] and str[counter+1] not in strCheck:
+        elif char == strCheck[-1]:
             print(counter)
             counter = len(str)
                 
