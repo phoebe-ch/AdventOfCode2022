@@ -67,12 +67,10 @@ gridSizeY = len(lines)
 
 def scenicCounter(current,side,isReverse):
     counter = 0
-    print("counter start")
     if isReverse:
         side = reversed(side)
 
     for tree in side:
-        print("check " + tree + " and current " + current)
         if int(current) >= int(tree):
             counter += 1
             if int(current) == int(tree):
@@ -90,29 +88,21 @@ def checkSurroundings(x,y):
     scenicRight = scenicCounter(lines[x][y],lines[x][y+1:-1],False)
     scenicAbove = scenicCounter(linesTranspose[y][x],linesTranspose[y][:x],True)
     scenicBelow = scenicCounter(linesTranspose[y][x],linesTranspose[y][x+1:],False)
-    print([scenicLeft,scenicRight,scenicAbove,scenicBelow])
     scenicScore = scenicLeft*scenicRight*scenicAbove*scenicBelow
-    print(scenicScore)
+
     return scenicScore
 
-numVisible = 0
-
-# count edge trees
-numVisible = (gridSizeX-1)*2 + (gridSizeY-2)*2
-
-# check interior trees
+# check interior trees only
 x = 1
 y = 1
 maxScore = 0
 while x < gridSizeX-2:
     y = 1
     while y < gridSizeY-1:
-        print(lines[x][y])
         currentScore = checkSurroundings(x,y)
         if currentScore > maxScore:
             maxScore = currentScore
         y += 1
-        print("")
     x += 1
 
 print(maxScore)
