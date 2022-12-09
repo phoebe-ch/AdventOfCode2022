@@ -6,7 +6,7 @@ Dec 8, 2022
 
 """
 # %% Part 1
-file = "Day8_Input.txt"
+file = "inputs\Day8_Input.txt"
 with open(file) as f:
     lines = f.readlines()
 
@@ -56,7 +56,7 @@ while x < gridSizeX-2:
 print(numVisible)
 
 # %% Part 2
-file = "Day8_Input.txt"
+file = "inputs\Day8_Input.txt"
 with open(file) as f:
     lines = f.readlines()
 

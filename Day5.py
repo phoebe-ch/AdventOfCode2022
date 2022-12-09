@@ -5,7 +5,7 @@ Phoebe Cheung
 Dec 4, 2022
 """
 # %% Part 1
-file = "Day5_Input.txt"
+file = "inputs\Day5_Input.txt"
 with open(file) as f:
     lines = f.readlines()
 
@@ -50,7 +50,7 @@ while counter < 9:
 print(ans)
 
 # %% Part 2
-file = "Day5_Input.txt"
+file = "inputs\Day5_Input.txt"
 with open(file) as f:
     lines = f.readlines()
 

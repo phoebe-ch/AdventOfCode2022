@@ -5,7 +5,7 @@ Phoebe Cheung
 Dec 5, 2022
 """
 # %% Part 1
-file = "Day6_Input.txt"
+file = "inputs\Day6_Input.txt"
 with open(file) as f:
     lines = f.readlines()
 
@@ -29,7 +29,7 @@ while counter < len(str):
     counter += 1
 
 # %% Part 2
-file = "Day6_Input.txt"
+file = "inputs\Day6_Input.txt"
 with open(file) as f:
     lines = f.readlines()
     

@@ -7,7 +7,7 @@ Dec 9, 2022
 # %% Part 1
 import numpy as np
 
-file = "Day9_Input.txt"
+file = "inputs\Day9_Input.txt"
 lines = open(file).readlines()
 
 def moveT(tCurrent,dir,prevHx,prevHy):
@@ -62,7 +62,7 @@ print(len(np.unique(tLocations)))
 # %% Part 2
 import numpy as np
 
-file = "Day9_Input.txt"
+file = "inputs\Day9_Input.txt"
 lines = open(file).readlines()
 
 def moveT(hCurrent,tCurrent):

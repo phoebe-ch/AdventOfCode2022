@@ -6,7 +6,7 @@ Dec 3, 2022
 """
 # %% Part 1
 
-file = "Day3_Input.txt"
+file = "inputs\Day3_Input.txt"
 
 totalScore = 0
 
@@ -32,7 +32,7 @@ print(totalScore)
 # %% Part 2
 import numpy as np
 
-file = "Day3_Input.txt"
+file = "inputs\Day3_Input.txt"
 
 totalScore = 0
 

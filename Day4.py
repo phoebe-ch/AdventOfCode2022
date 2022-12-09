@@ -7,7 +7,7 @@ Dec 4, 2022
 # %% Part 1
 import numpy as np
 
-file = "Day4_Input.txt"
+file = "inputs\Day4_Input.txt"
 
 counter = 0
 
@@ -43,7 +43,7 @@ print(counter)
 # %% Part 2
 import numpy as np
 
-file = "Day4_Input.txt"
+file = "inputs\Day4_Input.txt"
 
 counter = 0
 

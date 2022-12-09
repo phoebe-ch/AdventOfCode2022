@@ -8,7 +8,7 @@ Dec 3, 2022
 import numpy as np
 import csv
 
-file = "Day2_Input.csv"
+file = "inputs\Day2_Input.csv"
 totalScore = 0
 
 def calcScore(opponent,myChoice):
@@ -50,7 +50,7 @@ print(totalScore)
 import numpy as np
 import csv
 
-file = "Day2_Input.csv"
+file = "inputs\Day2_Input.csv"
 totalScore = 0
 
 def calcScore(opponent,myChoice):
